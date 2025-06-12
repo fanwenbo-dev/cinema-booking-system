@@ -55,5 +55,7 @@ A full-stack web application for online movie ticket booking with:
 Team Members
 
 Cheah Kai Weng (Team Leader) - UI Developer, AI Integration
+
 Tristan Chiew Xuhung - Login System Developer
+
 Fan Wen Bo - Frontend Developer, Admin UI
