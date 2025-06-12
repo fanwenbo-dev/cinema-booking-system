@@ -1,0 +1,20 @@
+{
+    "members": [
+        {
+            "name": "Tristan",
+            "age": 19,
+            "phone_number": "69420",
+            "username": "Cheesed",
+            "password": "$2y$10$15i4PHo.yzWToLEwzxirZeY6k7SEhJvAyx\/Jfv0QUdJg.eAfRRJ.2",
+            "points": 100
+        },
+        {
+            "name": "Cheah Kai Weng",
+            "age": 18,
+            "phone_number": "+6591234567",
+            "username": "Kai",
+            "password": "$2y$10$I4nr.0GmjrDixX5i2lkyH.sB5w2eTXoMY\/wL.4nN3ndesWLSr.sM.",
+            "points": 100
+        }
+    ]
+}

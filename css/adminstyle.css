@@ -1,0 +1,339 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Admin Section */
+.admin-section {
+    max-width: 1200px; /* Increased width to accommodate side-by-side layout */
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Flexbox Layout for Admin Sections */
+.admin-sections-container {
+    display: flex;
+    gap: 20px; /* Space between the two sections */
+}
+
+/* Individual Admin Section Styling */
+.admin-subsection {
+    flex: 1; /* Each section takes equal width */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Form Styling */
+.admin-form {
+    width: 60%; /* Set form width to 75% of the container */
+    max-width: 800px; /* Optional: Max width to prevent it from being too wide on large screens */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+.admin-form input[type="text"],
+.admin-form input[type="date"],
+.admin-form input[type="time"],
+.admin-form input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.admin-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.admin-form button:hover {
+    background-color: #218838;
+}
+
+/* Table Styling */
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.admin-table th, .admin-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.admin-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.admin-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Movie Poster */
+.admin-movie-poster {
+    width: 80px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.admin-subsection {
+    width: 50%; /* Container takes up 50% of the screen width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.form-title {
+    text-align: center; /* Center the title */
+    margin-bottom: 10px; /* Adds space between the title and the form */
+    font-size: 24px; /* Adjust the font size of the title */
+}
+
+.form-title-manage-bookings {
+    text-align: center; /* Center the title */
+    margin-bottom: 10px; /* Adds space between the title and the form */
+    margin-top: 20px; /* Add space between the panel and title */
+    font-size: 24px; /* Adjust the font size of the title */
+}
+
+/* Delete Button */
+.delete-btn {
+    color: #dc3545;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #dc3545;
+    color: white;
+    text-decoration: none;
+}
+
+/* Header Styling */
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 68.4px;
+}
+
+header .logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.main-header {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between brand name and admin panel text */
+}
+
+.brand-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* White text for CinemaBooking */
+}
+
+.admin-panel {
+    font-size: 16px;
+    color: #CCCCCC; /* Light grey text for Admin Panel */
+    font-weight: normal;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 12px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #444;
+    border-radius: 4px;
+}
+
+
+/* General Reset for margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tabs Container */
+.tabs {
+    display: flex;
+    justify-content: center; /* Centers the tabs horizontally */
+    gap: 20px;  /* Adds space between each tab */
+    margin: 0 auto; /* Remove top margin */
+    padding: 15px 0; /* Adds padding above and below the tabs */
+}
+
+/* Tab Links */
+.tab-link {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #162e6a; /* Blue background */
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background 0.3s;
+    text-align: center; /* Ensures the text is centered */
+}
+
+.tab-link:hover {
+    background-color: #218838; /* Hover effect for a green shade */
+}
+
+
+
+
+/* Styling for the form-title in the promotions section */
+.form-title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+/* Table for displaying promotions */
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-table th, .admin-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.admin-table th {
+    background-color: #f4f4f4;
+}
+
+.admin-table td {
+    background-color: #f9f9f9;
+}
+
+/* Styling for the delete button */
+.delete-btn {
+    color: red;
+    cursor: pointer;
+}
+
+
+/* Styling for the form-title */
+.form-title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+/* Container for the analytics metrics */
+.analytics-container {
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Styling for the metrics section */
+.metrics {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Styling for the charts container */
+.chart-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.clear-btn {
+    background-color: #ff4d4d; /* Red color for warning */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.clear-btn:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}

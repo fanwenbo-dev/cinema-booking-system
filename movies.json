@@ -1,0 +1,146 @@
+[
+    {
+        "title": "Transformers One",
+        "genre": "Action\/Sci-fi",
+        "duration": "1h 44m",
+        "synopsis": "Once upon a time, Optimus Prime and Megatron were friends bonded like brothers who managed to change the fate of the Cybertron planet forever. This is their untold original story, before they end up being bitter opponents.",
+        "slots": "8,20,20,20",
+        "image": "assets\/Screenshot2025-02-06015006.png",
+        "showtimes": {
+            "2025-02-08": [
+                "12:00",
+                "19:00"
+            ],
+            "2025-02-09": [
+                "12:00",
+                "19:00"
+            ]
+        }
+    },
+    {
+        "title": "Hollow Knight: DeepNest",
+        "genre": "Fantasy\/Adventure",
+        "duration": "2h 15m",
+        "synopsis": "In a world plagued by a supernatural disease, a insectoid warrior explores the land is search of answers.",
+        "slots": "20,20,20,20",
+        "image": "assets\/hk.jpg",
+        "showtimes": {
+            "2025-03-15": [
+                "14:00",
+                "20:00"
+            ],
+            "2025-03-16": [
+                "14:00",
+                "20:00"
+            ]
+        }
+    },
+    {
+        "title": "Rainbow Six: Attack on Hereford",
+        "genre": "Action\/Thriller",
+        "duration": "1h 52m",
+        "synopsis": "A international counterterrorism unit, Team Rainbow, combats several orchestrated terrorist attacks in this adaptation of the popular Ubisoft online game.",
+        "slots": "18,20,20,20",
+        "image": "assets\/r6s.png",
+        "showtimes": {
+            "2025-04-10": [
+                "16:00",
+                "21:00"
+            ],
+            "2025-04-11": [
+                "16:00",
+                "21:00"
+            ]
+        }
+    },
+    {
+        "title": "Tekken: Bloodline",
+        "genre": "Action",
+        "duration": "2h 8m",
+        "synopsis": "After losing his home to the powerful enemy Ogre, hot-tempered Jin Kazama trains under his zealous grandfather Heihachi Mishima whilst awaiting his chance for revenge in the lead up to the third King of Iron Fist tournament.",
+        "slots": "20,20,20,20",
+        "image": "assets\/tekken.jpg",
+        "showtimes": {
+            "2025-05-22": [
+                "13:00",
+                "18:00"
+            ],
+            "2025-05-23": [
+                "13:00",
+                "18:00"
+            ]
+        }
+    },
+    {
+        "title": "Terminator: Dark Fate",
+        "genre": "Action\/Sci-fi",
+        "duration": "1h 58m",
+        "synopsis": "When an advanced Terminator is sent into the past, a cyborg and a seasoned female warrior team up to stop the death of a young woman who is fated to ensure the survival of the human race.",
+        "slots": "20,20,20,20",
+        "image": "assets\/term.jpg",
+        "showtimes": {
+            "2025-06-05": [
+                "15:00",
+                "19:30"
+            ],
+            "2025-06-06": [
+                "15:00",
+                "19:30"
+            ]
+        }
+    },
+    {
+        "title": "BENDY: Ink Chronicles",
+        "genre": "Horror\/Thriller",
+        "duration": "1h 57m",
+        "synopsis": "A retired artist revisits the past by visiting the abandoned animation studio which he once founded with a friend, oblivious of what happened within.",
+        "slots": "20,20,20,20",
+        "image": "assets\/bend.jpg",
+        "showtimes": {
+            "2025-02-08": [
+                "12:00",
+                "19:00"
+            ],
+            "2025-02-09": [
+                "12:00",
+                "19:00"
+            ]
+        }
+    },
+    {
+        "title": "Beneath the Surface",
+        "genre": "Thriller",
+        "duration": "1h 58m",
+        "synopsis": "A journalist investigates a series of mysterious disappearances in a small coastal town, uncovering dark secrets that threaten her life and those she loves.",
+        "slots": "20,20,20,20",
+        "image": "assets\/mov.jpg",
+        "showtimes": {
+            "2025-04-10": [
+                "16:30",
+                "21:30"
+            ],
+            "2025-04-11": [
+                "16:30",
+                "21:30"
+            ]
+        }
+    },
+    {
+        "title": "Sonic 3",
+        "genre": "Action\/Comedy",
+        "duration": "1h 53m",
+        "synopsis": "Sonic, Knuckles and Tails reunite to battle Shadow, a mysterious new enemy with powers unlike anything they've faced before. With their abilities outmatched in every way, they seek out an unlikely alliance to stop Shadow and protect the planet.",
+        "slots": "20,20,20,1",
+        "image": "assets\/sonic3.jpg",
+        "showtimes": {
+            "2025-02-10": [
+                "12:00",
+                "19:00"
+            ],
+            "2025-02-11": [
+                "12:00",
+                "19:00"
+            ]
+        }
+    }
+]

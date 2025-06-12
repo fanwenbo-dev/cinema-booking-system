@@ -1,0 +1,250 @@
+/* Booking Page Layout */
+.booking-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Poster Styling */
+.booking-poster {
+    flex: 1;
+    max-width: 300px;
+}
+
+.booking-poster img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Details & Form Section */
+.booking-details {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.booking-details h1 {
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.booking-details p {
+    font-size: 16px;
+    color: #555;
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.booking-details strong {
+    color: #111;
+}
+
+/* Form Styling */
+.booking-form {
+    margin-top: 20px;
+}
+
+.booking-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.booking-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fafafa;
+    transition: border-color 0.3s;
+}
+
+.booking-form select:focus {
+    border-color: #e50914;
+    outline: none;
+}
+
+/* Availability Button */
+.booking-form button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.3s;
+    font-size: 16px;
+    width: 100%;
+}
+
+.booking-form button:hover {
+    background-color: #b00610;
+}
+
+/* Availability Message */
+.availability-message {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .booking-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .booking-details {
+        text-align: center;
+    }
+
+    .booking-form select,
+    .booking-form button {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 12px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #444;
+    border-radius: 4px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Movies Section */
+.movies {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.movie-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.movie-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.movie-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.movie-card p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.movie-card button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.movie-card button:hover {
+    background-color: #b00610;
+}
+
+.movie-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+#disclaimer {
+    font-size: 5px;
+}
