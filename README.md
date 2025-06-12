@@ -45,3 +45,15 @@ A full-stack web application for online movie ticket booking with:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/cinema-booking-system.git
+
+2. Set up a local PHP server (XAMPP, WAMP, or MAMP recommended)
+
+3. Configure the OpenAI API key in openai.php (if using AI summaries)
+
+4. Access the application through your local server
+
+Team Members
+
+Cheah Kai Weng (Team Leader) - UI Developer, AI Integration
+Tristan Chiew Xuhung - Login System Developer
+Fan Wen Bo - Frontend Developer, Admin UI
